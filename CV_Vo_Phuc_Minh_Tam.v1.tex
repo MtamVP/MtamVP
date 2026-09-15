@@ -1,0 +1,171 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+
+% Font options (matching the serif look of the sample)
+\usepackage{mathptmx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\bfseries\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeEduHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{#2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{#2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeCertHeading}[3]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{#2} \\
+      \textit{\small#3} & \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Vo Phuc Minh Tam} \\ \vspace{4pt}
+    \small Ho Chi Minh City, Vietnam \\ \vspace{2pt}
+    \small +84 835 341 106 $|$ \href{mailto:mtamvp1167@gmail.com}{\underline{mtamvp1167@gmail.com}} \\
+    \href{https://www.linkedin.com/in/minh-tam-vo-phuc-94a884425}{\underline{linkedin.com/in/minh-tam-vo-phuc-94a884425}} \quad
+    \href{https://github.com/MtamVP}{\underline{github.com/MtamVP}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+ \small{Highly motivated 2nd-year Computer Science student at the University of Information Technology (UIT). Passionate about Artificial Intelligence, specifically focusing on Retrieval-Augmented Generation (RAG) architectures and backend development using Python and FastAPI. Demonstrated ability to build practical AI applications and eager to leverage technical skills in a real-world software engineering or AI internship.} \vspace{4pt}
+ 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeEduHeading
+      {University of Information Technology (UIT) - VNUHCM}{Aug 2025 -- Present}
+      {Bachelor of Computer Science $|$ \textbf{GPA: 3.88/4.0}}{Ho Chi Minh City, Vietnam}
+    \resumeEduHeading
+      {THPT Nguyen Thi Minh Khai}{Aug 2022 -- May 2025}
+      {High School Diploma}{Ho Chi Minh City, Vietnam}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, JavaScript, HTML/CSS, SQL} \\
+     \textbf{Backend \& Frameworks}{: FastAPI} \\
+     \textbf{DevOps \& Tools}{: Docker, Supabase, Cloudflare Workers/Pages, Google Cloud Run, Git} \\
+     \textbf{AI \& Automation}{: Retrieval-Augmented Generation (RAG), FAISS, Ollama, Sentence-Transformers, n8n} \\
+     \textbf{Library}{: Numpy, Pandas, Matplotlib, Seaborn}\\
+     \textbf{English}{: IELTS Academic 6.5}
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Data Science UIT 2026} -- \emph{Legal IR \& QA System} $|$ \emph{Python, Natural Language Processing}}{Aug 2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{\textbf{Information Retrieval (IR):} Designed a search system to accurately scan and extract highly relevant clauses from a vast corpus of complex Vietnamese legal documents.}
+            \resumeItem{\textbf{Search Optimization:} Enhanced retrieval accuracy by combining exact keyword matching with deep semantic understanding, ensuring the most critical legal articles are prioritized and ranked first.}
+            \resumeItem{\textbf{Question Answering (QA):} Built an automated pipeline that analyzes the retrieved legal contexts to synthesize precise, reliable, and strictly referenced answers for complex legal user queries.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Vonika} -- \emph{Personal AI Chat Assistant} $|$ \emph{Python, FastAPI, Supabase, Cloud Run}}{Aug 2026}
+          \resumeItemListStart
+            \resumeItem{Built a personal web-based AI chat assistant with a UI layout inspired by NotebookLM.}
+            \resumeItem{Wrote scripts to extract and process text from multiple file formats (PDF, DOCX, XLSX, JSON) to build a local knowledge base.}\resumeItem{Applied basic Retrieval-Augmented Generation (RAG) using FAISS and BM25/TF-IDF to help the AI answer questions.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Pokédex.io} -- \emph{Interactive Web Application} $|$ \emph{HTML5, CSS3, JavaScript, PokéAPI}}{Jul 2026}
+          \resumeItemListStart
+            \resumeItem{Developed a web-based encyclopedia allowing users to search and visualize comprehensive Pokémon statistics.}
+            \resumeItem{Engineered dynamic UI components including search autocomplete and evolution chain navigation using Vanilla JavaScript.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%-----------EXTRACURRICULAR ACTIVITIES-----------
+\section{Extracurricular Activities}
+  \resumeSubHeadingListStart
+    \resumeEduHeading
+      {Data Science UIT 2026 Competition}{Aug 2026 -- Present}
+      {Member of Team UIT-VstarK -- Legal IR \& QA Track}{Ho Chi Minh City, Vietnam}
+  \resumeSubHeadingListEnd
+  
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeCertHeading
+        {Crash Course on Python}{Apr 2026}
+        {Google / Coursera}
+    \resumeCertHeading
+        {Gemini Certified Educator}{Jan 2026}
+        {Google for Education}
+    \resumeCertHeading
+        {Data Manipulation and Data Visualization with Python (Score: 8.0)}{Sep 2024}
+        {Computer Science Center - VNU-HCM}
+    \resumeCertHeading
+        {Fundamentals of Python (Score: 7.5)}{Jul 2024}
+        {Computer Science Center - VNU-HCM}
+    \resumeCertHeading
+        {IELTS Academic -- Band 6.5}{Jan 2024}
+        {British Council}
+  \resumeSubHeadingListEnd
+\end{document}
