@@ -26,10 +26,10 @@ Focused on building robust backend systems, RAG pipelines, and interactive web a
 
 * **Document Processing:** Multi-format file parsing pipelines (PDF, DOCX, XLSX, JSON) for comprehensive data extraction.
 * **Advanced RAG:** Hybrid retrieval combining BM25 + TF-IDF with Reciprocal Rank Fusion.
-* **Vector Storage:** Integrated FAISS vector stores for efficient semantic search.
-* **Local LLM:** Powered by local language models via Ollama for privacy-focused Q&A.
+* **Database & Storage:** Managed with Supabase (PostgreSQL + Storage) for efficient data handling.
+* **LLM Integration:** Powered by Google Gemini API for highly accurate and contextual Q&A.
 
-> **Built with:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=flat-square&logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![GCP](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+> **Built with:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=flat-square&logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![GCP](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 
 <br>
 
