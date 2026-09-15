@@ -33,7 +33,7 @@ Focused on building robust backend systems, RAG pipelines, and interactive web a
 
 <br>
 
-#### Data Science UIT 2026 Solution — Legal IR & QA
+#### [Data Science UIT 2026 Solution — Legal IR & QA](https://github.com/MtamVP/DSC-UIT-VstarK)
 *A high-performance hybrid retrieval system designed for Legal Information Retrieval and Question Answering.*
 
 * **Hybrid Retrieval Architecture:** Combined multi-level BM25 indexing, FAISS Dense Vector Index, and a custom Citation Inverted Index.
