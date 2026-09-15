@@ -14,7 +14,7 @@ Focused on building robust backend systems, RAG pipelines, and interactive web a
 | :--- | :--- |
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
 | **Frameworks** | ![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=flat-square&logo=fastapi&logoColor=white) |
-| **AI & ML** | ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-092E20?style=flat-square) ![RAG](https://img.shields.io/badge/RAG_Pipelines-FF6F00?style=flat-square) |
+| **AI & ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-092E20?style=flat-square) ![RAG](https://img.shields.io/badge/RAG_Pipelines-FF6F00?style=flat-square) |
 | **Cloud & Tools**| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=flat-square&logo=n8n&logoColor=white) |
 
 ---
@@ -30,6 +30,18 @@ Focused on building robust backend systems, RAG pipelines, and interactive web a
 * **LLM Integration:** Powered by Google Gemini API for highly accurate and contextual Q&A.
 
 > **Built with:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=flat-square&logo=fastapi&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![GCP](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+
+<br>
+
+#### Data Science UIT 2026 Solution — Legal IR & QA
+*A high-performance hybrid retrieval system designed for Legal Information Retrieval and Question Answering.*
+
+* **Hybrid Retrieval Architecture:** Combined multi-level BM25 indexing, FAISS Dense Vector Index, and a custom Citation Inverted Index.
+* **Advanced Ranking:** Integrated Reciprocal Rank Fusion (RRF) and a multilingual Cross-Encoder model for precision reranking.
+* **Data Processing:** Implemented robust article-based parsing and fixed-length sliding window chunking with context augmentation.
+* **System Design:** Optimized as a monolithic pipeline (`solution.py`) to maximize inference speed and portability.
+
+> **Built with:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-092E20?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 <br>
 
