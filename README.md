@@ -3,8 +3,9 @@
 **2nd-year Computer Science Student @ UIT - VNUHCM**  
 Passionate about Artificial Intelligence, Machine Learning, and Agentic Workflows.  
 Focused on building robust backend systems, RAG pipelines, and interactive web applications.  
-**Reach me at:** mtamvp1167@gmail.com | [LinkedIn](https://www.linkedin.com/in/minh-tam-vo-phuc-94a884425)
-**Visit my CV [here](https://drive.google.com/file/d/1UPsQ77Sdz3EjbWv-D6p4zk-ggGOLKe3y/view?usp=drive_link)**
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mtamvp1167@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minh-tam-vo-phuc-94a884425)
+[![CV](https://img.shields.io/badge/CV_/_Resume-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1UPsQ77Sdz3EjbWv-D6p4zk-ggGOLKe3y/view?usp=drive_link)
 
 ---
 
