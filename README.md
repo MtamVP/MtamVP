@@ -5,7 +5,7 @@ Passionate about Artificial Intelligence, Machine Learning, and Agentic Workflow
 Focused on building robust backend systems, RAG pipelines, and interactive web applications.  
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mtamvp1167@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minh-tam-vo-phuc-94a884425)
-[![CV](https://img.shields.io/badge/CV_/_Resume-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1n3EnXJglioqI6hOzvEMTLc5ZKBrDnjiM/view?usp=drive_link)
+[![CV](https://img.shields.io/badge/CV_/_Resume-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1h_8o5aN8_M7WOkCv353qiYaYf9U_66JD/view?usp=drive_link)
 
 ---
 
